@@ -1,0 +1,27 @@
+Apache Kafka es una plataforma distribuida de streaming diseñada para manejar grandes volúmenes de datos en tiempo real.
+
+Conceptos importantes:
+
+Producer:
+Un producer envía mensajes a Kafka topics.
+
+Consumer:
+Un consumer lee mensajes desde un topic.
+
+Topic:
+Un topic es una categoría lógica donde se publican mensajes.
+
+Partition:
+Los topics pueden dividirse en partitions para escalar horizontalmente.
+
+Consumer Group:
+Un consumer group permite distribuir el procesamiento entre múltiples consumers.
+
+Replication:
+Kafka replica partitions entre brokers para alta disponibilidad.
+
+Use cases:
+- Event streaming
+- Log aggregation
+- Real-time analytics
+- Messaging systems
